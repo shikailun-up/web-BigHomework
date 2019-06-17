@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>web的大作业</title>
+		<style type="text/css">
+			#top{
+				font:14.78px "微软雅黑";
+				color:black;
+				padding-left:892px;
+				display:inline-block;
+			}
+			.topp{
+				display:inline-block;
+			}
+			#top1{
+				display:block;
+				margin-left:358px;
+				margin-top:65px;
+			}
+			#sousuo{
+				width:601px;
+				height:46px;
+				border:black 1px solid;
+				margin-left:774px;
+				margin-top:-46px;
+			}
+			#sousuoneirong{
+				font:14.78px "微软雅黑";
+				color:rgb(200,200,200);
+				margin-left:249px;
+				margin-top:16px;
+			}
+			#fada{
+				display:block;
+				margin-left:551px;
+				margin-top:-44px;
+			}
+			#gouwuche{
+				display:block;
+				margin-left:1524px;
+				margin-top:-34px;
+			}	
+			.ulone>li{
+				display:inline-block;
+				list-style-type:none;
+				font:14.78px "微软雅黑";
+				border-bottom: 2px solid white;
+			}
+			.ulone>li:hover{
+				border-bottom:solid 2px #3AA747;
+				color:#3aa747;
+			}
+			.ulone{
+				margin-top:32px;
+			}	
+			#one{
+				margin-left:320px;
+			}	
+			#two{
+				margin-left:46px;
+			}
+			.qiyu{
+				margin-left:91px;
+			}
+			#banner{
+				width:%100;
+				height:670px;
+				margin-top:-17px;
+				background-image: url(img/banner.png);
+				background-repeat: no-repeat;
+			}
+			#ding{
+				width:81px;
+				height:593px;
+				background-color:#000000;
+				float:right;
+				position:fixed;
+				left:1845px;
+				top:238px;
+			}
+			#ding>img{
+				display:block;
+				margin:0 auto;
+			}
+			#zhu1{
+				position:absolute;
+				top:51px;
+				left:24px;
+			}
+			#zhu2{
+				position:absolute;
+				top:162px;
+				left:24px;
+			}
+			#zhu3{
+				position:absolute;
+				top:274px;
+				left:24px;
+			}
+			#zhu4{
+				position:absolute;
+				top:400px;
+				left:24px;
+			}
+			#zhu5{
+				position:absolute;
+				top:518px;
+				left:24px;
+			}
+			#ding>div{
+				margin:0 auto;
+				width:69px;
+				border:1px solid rgb(56,62,60);
+				margin-top:120px;
+			}
+			#dayuhao{
+				display:inline-block;
+				position:absolute;
+				left:450px;
+				top:915px;
+				color:rgb(150,150,150);
+			}
+			#shouye{
+				font:19px "微软雅黑";
+				color:black;
+				margin-left:391px;
+				margin-top:20px;
+			}
+			#shangpin{
+				margin-left:1485px;
+				margin-top:-40px;
+				font:16px "微软雅黑";
+				color:rgb(150,150,150);
+			}
+			#liebiaoone{
+				list-style-type: none;
+				width:1196px;
+				height:46px;
+				border:1px solid #ccc;
+				margin-left: 365px;
+			}
+			#liebiaoone>li{
+				display: inline-block;
+			}
+			#liebiaotwo{
+				list-style-type: none;
+				width:1196px;
+				height:46px;
+				border-bottom: 1px solid #ccc;
+				border-left: 1px solid #ccc;
+				border-right: 1px solid #ccc;
+				margin-top:-20px;
+				margin-left: 365px;
+			}
+			#liebiaotwo>li{
+				display: inline-block;
+			}
+			#liebiaothree{
+				list-style-type: none;
+				width:1196px;
+				height:46px;
+				border-bottom: 1px solid #ccc;
+				border-left: 1px solid #ccc;
+				border-right: 1px solid #ccc;
+				margin-top:-20px;
+				margin-left: 365px;
+			}
+			#liebiaothree>li{
+				display: inline-block;
+			}
+			.tou{
+				width:100px;
+				height:46px;
+				background-color: #e5e5e5;
+				margin-left:-50px;
+			}
+			.tou1{
+				margin-left: 30px;
+				margin-top:15px ;
+				font:16px "微软雅黑" bold;
+				color:#000000;
+			}
+			.tou2{
+				margin-left:40px;
+			}
+			.shengyu{
+				margin-left:100px;
+			}
+			.tou2:hover{
+				color:#3AA747;
+			}
+			.shengyu:hover{
+				color:#3AA747;
+			}
+			#tuyi{
+				border:2px solid #CCCCCC;
+				width:271px;
+				height:293px;
+				background-image: url(img/img1.png);
+				background-repeat: no-repeat;
+				position: absolute;
+				left:375px;
+				top:1167px;
+				z-index:30;
+				background-color: white;
+			}
+			#tuyi:hover{
+				z-index:0;
+			}
+			#tuyip:hover{
+				background-color: #FFFFFF;
+			}
+			#tuer:hover{
+				z-index:0;
+			}
+			#tuerp:hover{
+				background-color: #FFFFFF;
+			}
+			#tusan:hover{
+				z-index:0;
+			}
+			#tusanp:hover{
+				background-color: #FFFFFF;
+			}
+			#tusi:hover{
+				z-index:0;
+			}
+			#tusip:hover{
+				background-color: #FFFFFF;
+			}
+			#tuwu:hover{
+				z-index:0;
+			}
+			#tuwup:hover{
+				background-color: #FFFFFF;
+			}
+			#tuliu:hover{
+				z-index:0;
+			}
+			#tuliup:hover{
+				background-color: #FFFFFF;
+			}
+			#tuqi:hover{
+				z-index:0;
+			}
+			#tuqip:hover{
+				background-color: #FFFFFF;
+			}
+			#tuba:hover{
+				z-index:0;
+			}
+			#tubap:hover{
+				background-color: #FFFFFF;
+			}
+			#tuer{
+				border:2px solid #CCCCCC;
+				width:271px;
+				height:293px;
+				background-image:url(img/img2.png);
+				background-repeat: no-repeat;
+				background-position: 38px 30px;
+				position: absolute;
+				left:676px;
+				top:1167px;
+				z-index:30;
+				background-color: white;
+			}
+			#tusan{
+				border:2px solid #CCCCCC;
+				width:271px;
+				height:293px;
+				background-image:url(img/img3.png);
+				background-repeat: no-repeat;
+				background-position: 38px 45px;
+				position: absolute;
+				top:1167px;
+				left:981px;
+				z-index:15;
+				background-color: white;
+			}
+			#tusi{
+				border:2px solid #CCCCCC;
+				width:271px;
+				height:293px;
+				background-image:url(img/img4.png);
+				background-repeat: no-repeat;
+				background-position: 15px 30px;
+				position:absolute;
+				top:1167px;
+				left:1283px;
+				z-index: 15;
+				background-color: white;
+			}
+			#tuwu{
+				border:2px solid #CCCCCC;
+				width:271px;
+				height:293px;
+				background-image:url(img/img5.png);
+				background-repeat: no-repeat;
+				background-position: 15px 30px;
+				position: absolute;
+				left:375px;
+				top:1500px;
+				z-index: 15;
+				background-color: white;
+			}
+			#tuliu{
+				margin-top:-297px;
+				border:2px solid #CCCCCC;
+				width:271px;
+				height:293px;
+				background-image:url(img/img6.png);
+				background-repeat: no-repeat;
+				background-position: 15px 30px;
+				position:absolute;
+				left:676px;
+				top:1797px;
+				z-index: 15;
+				background-color: white;
+			}
+			#tuqi{
+				border:2px solid #CCCCCC;
+				width:271px;
+				height:293px;
+				background-image:url(img/img7.png);
+				background-repeat: no-repeat;
+				background-position: 20px 35px;
+				position:absolute;
+				left:981px;
+				top:1500px;
+				z-index: 15;
+				background-color: white;
+			}
+			#tuba{
+				border:2px solid #CCCCCC;
+				width:271px;
+				height:293px;
+				background-image:url(img/img8.png);
+				background-repeat: no-repeat;
+				background-position: 20px 35px;
+				position: absolute;
+				left:1283px;
+				top:1500px;
+				z-index: 15;
+				background-color: white;
+			}
+			#tuyip{
+				width:271px;
+				height:52px;
+				margin-top: 242px;
+				background-color: rgba(0,0,0,0.8);
+				color:white;
+				font:15px "微软雅黑";
+				padding:0 auto;
+			}
+			.diyihang{
+				position:relative;
+				left:65px;
+				top:7px;
+			}
+			#dierhang{
+				position: relative;
+				top:-5px;
+				left:65px;
+			}
+			#tuerp{
+				width:271px;
+				height:52px;
+				margin-top: 242px;
+				background-color: rgba(0,0,0,0.8);
+				color:white;
+				font:15px "微软雅黑";
+				padding:0 auto;
+			}
+			#tusanp{
+				width:271px;
+				height:52px;
+				margin-top: 242px;
+				background-color: rgba(0,0,0,0.8);
+				color:white;
+				font:15px "微软雅黑";
+				padding:0 auto;
+			}
+			#tusip{
+				width:271px;
+				height:52px;
+				margin-top: 242px;
+				background-color: rgba(0,0,0,0.8);
+				color:white;
+				font:15px "微软雅黑";
+				padding:0 auto;
+			}
+			#tuwup{
+				width:271px;
+				height:52px;
+				margin-top: 242px;
+				background-color: rgba(0,0,0,0.8);
+				color:white;
+				font:15px "微软雅黑";
+				padding:0 auto;
+			}
+			#tuliup{
+				width:271px;
+				height:52px;
+				margin-top: 242px;
+				background-color: rgba(0,0,0,0.8);
+				color:white;
+				font:15px "微软雅黑";
+				padding:0 auto;
+			}
+			#tuqip{
+				width:271px;
+				height:52px;
+				margin-top: 242px;
+				background-color: rgba(0,0,0,0.8);
+				color:white;
+				font:15px "微软雅黑";
+				padding:0 auto;
+			}
+			#tubap{
+				width:271px;
+				height:52px;
+				margin-top: 242px;
+				background-color: rgba(0,0,0,0.8);
+				color:white;
+				font:15px "微软雅黑";
+				padding:0 auto;
+			}
+			#dierhang2{
+				position: relative;
+				top:-5px;
+				left:83px;
+			}
+			#dierhang3{
+				position:relative ;
+				top:-5px;
+				left:85px;
+			}
+			#dierhang4{
+				position:relative ;
+				top:-5px;
+				left:85px;
+			}
+			#dierhang5{
+				position:relative ;
+				top:-5px;
+				left:85px;
+			}
+			#dierhang8{
+				position:relative ;
+				top:-5px;
+				left:85px;
+			}
+			#dierhang6{
+				position:relative ;
+				top:-5px;
+				left:47px;
+			}
+			#dierhang7{
+				position:relative ;
+				top:-5px;
+				left:47px;
+			}
+			#tibu1{
+				width:271px;
+				height:293px;
+				position: absolute;
+				left:375px;
+				top:1167px;
+				z-index:10;
+				background-color: rgba(0,0,0,0.8);
+				color:#FFFFFF;
+			}
+			#tibu2{
+				width:271px;
+				height:293px;
+				position: absolute;
+				left:676px;
+				top:1167px;
+				z-index:10;
+				background-color: rgba(0,0,0,0.8);
+				color:#FFFFFF;
+			}
+			#tibu3{
+				width:271px;
+				height:293px;
+				position: absolute;
+				left:981px;
+				top:1167px;
+				z-index:10;
+				background-color: rgba(0,0,0,0.8);
+				color:#FFFFFF;
+			}
+			#tibu4{
+				width:271px;
+				height:293px;
+				position: absolute;
+				left:1283px;
+				top:1167px;
+				z-index:10;
+				background-color: rgba(0,0,0,0.8);
+				color:#FFFFFF;
+			}
+			#tibu5{
+				width:271px;
+				height:293px;
+				position: absolute;
+				left:375px;
+				top:1500px;
+				z-index:10;
+				background-color: rgba(0,0,0,0.8);
+				color:#FFFFFF;
+			}
+			#tibu6{
+				width:271px;
+				height:293px;
+				position: absolute;
+				left:676px;
+				top:1500px;
+				z-index:10;
+				background-color: rgba(0,0,0,0.8);
+				color:#FFFFFF;
+			}
+			#tibu7{
+				width:271px;
+				height:293px;
+				position: absolute;
+				left:981px;
+				top:1500px;
+				z-index:10;
+				background-color: rgba(0,0,0,0.8);
+				color:#FFFFFF;
+			}
+			#tibu8{
+				width:271px;
+				height:293px;
+				position: absolute;
+				left:1283px;
+				top:1500px;
+				z-index:10;
+				background-color: rgba(0,0,0,0.8);
+				color:#FFFFFF;
+			}
+			.tibudiyihang{
+				font:20px "微软雅黑";
+				margin-left:45px;
+				margin-top:123px;
+			}
+			#xuehaijie1{
+				font:20px "微软雅黑";
+				margin-left:45px;
+				margin-top:20px;
+			}
+			#xuehaijie2{
+				font:20px "微软雅黑";
+				margin-left:65px;
+				margin-top:20px;
+			}
+			#xuehaijie3{
+				font:20px "微软雅黑";
+				margin-left:65px;
+				margin-top:20px;
+			}
+			#xuehaijie4{
+				font:20px "微软雅黑";
+				margin-left:65px;
+				margin-top:20px;
+			}
+			#xuehaijie5{
+				font:20px "微软雅黑";
+				margin-left:65px;
+				margin-top:20px;
+			}
+			#xuehaijie6{
+				font:20px "微软雅黑";
+				margin-left:28px;
+				margin-top:20px;
+			}
+			#xuehaijie7{
+				font:20px "微软雅黑";
+				margin-left:28px;
+				margin-top:20px;
+			}
+			#xuehaijie8{
+				font:20px "微软雅黑";
+				margin-left:65px;
+				margin-top:20px;
+			}
+			#bottom{
+				width:%100;
+				height:102px;
+				background-color:#f5f5f5;
+				margin-top:821px;;
+			}
+			#bottom>img{
+				display:inline-block;
+			}
+			#b1{
+				margin-left:398px;
+				margin-top:28px;
+			}
+			#b2{
+				margin-left:248px ;
+			}
+			#b3{
+				margin-left:248px ;
+			}
+			#b4{
+				margin-left:248px ;
+			}
+			#shikailun{
+				font:19px "微软雅黑";
+				margin-left:468px;
+				margin-top:-50px;
+			}
+			#shikailun1{
+				font:19px "微软雅黑";
+				margin-left:766px;
+				margin-top:-45px;
+			}
+			#shikailun2{
+				font:19px "微软雅黑";
+				margin-left:1068px;
+				margin-top:-45px;
+			}
+			#shikailun3{
+				font:19px "微软雅黑";
+				margin-left:1366px;
+				margin-top:-45px;
+			}
+			#shikailun4{
+				font:13px "微软雅黑";
+				margin-left:468px;
+				margin-top:-13px;
+			}
+			#shikailun5{
+				font:13px "微软雅黑";
+				margin-left:766px;
+				margin-top:-54px;
+			}
+			#shikailun6{
+				font:13px "微软雅黑";
+				margin-left:1068px;
+				margin-top:-32px;
+			}
+			#shikailun7{
+				font:13px "微软雅黑";
+				margin-left:1366px;
+				margin-top:-31px;
+			}
+			#bottom2{
+				width:%100;
+				height:98px;
+				background-color: #000000;
+				margin-top:-18px;
+			}
+			#heyi{
+				width:0px;
+				height:47px;
+				border:1px solid #e0e0e0;
+				margin-top: -56px;
+				margin-left:648px;
+			}
+			#heer{
+				width:0px;
+				height:47px;
+				border:1px solid #e0e0e0;
+				margin-top: -50px;
+				margin-left:949px;
+			}
+			#hesan{
+				width:0px;
+				height:47px;
+				border:1px solid #e0e0e0;
+				margin-top: -50px;
+				margin-left:1235px;
+			}
+			#bottom2one{
+				color:#fff;
+				font:14px "微软雅黑";
+				position: absolute;
+				left:595px;
+				top:2035px;
+			}
+			#bottom2two{
+				color:#fff;
+				font:14px "微软雅黑";
+				position: absolute;
+				left:803px;
+				top:2070px;
+			}
+			a{
+				text-decoration: none;
+			}
+			a:visited{
+				background-color:black;
+			}
+		</style>
+	</head>
+	<body>
+		<p id="top">嘿，欢迎来买猜商城!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请登录&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;免费注册 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我的订单&nbsp;&nbsp;&nbsp;▼&nbsp;&nbsp;我的买猜&nbsp;&nbsp;&nbsp;▼&nbsp;&nbsp;&nbsp;&nbsp;帮助中心&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+		<img src="img/wb.png"alt="" class="topp"/>&nbsp;&nbsp;
+		<img src="img/wx.png"alt="" class="topp"/></br>
+		<img src="img/logo.png"alt=""id="top1"/>
+		<div id="sousuo">
+			<p id="sousuoneirong">请输入搜索内容</p>
+			<img src="img/search.png"alt="" id="fada"/>
+		</div>
+		<img src="img/cart.png"alt=""id="gouwuche" />
+		<ul class="ulone">
+			<li id="one">全部商品分类&nbsp;&nbsp;▼</li>
+			<li id="two">首页</li>
+			<li class="qiyu">名酒</li>
+			<li class="qiyu">茗茶</li>
+			<li class="qiyu">玉石</li>
+			<li class="qiyu">休闲食品</li>
+			<li class="qiyu">洗护用品</li>
+			<li class="qiyu">土特产</li>
+			<li class="qiyu">积分商城</li>
+			<li class="qiyu">抽奖游戏</li>
+		</ul>
+		<div id="ding">
+			<img src="img/cart1.png"alt="" id="zhu1"/>
+			<div id="xian1"></div>
+			<img src="img/qq.png"alt="" id="zhu2"/>
+			<div id="xian2"></div>
+			<img src="img/zuji.png"alt="" id="zhu3"/>
+			<div id="xian3"></div>
+			<img src="img/erweima.png"alt="" id="zhu4"/>
+			<div id="xian4"></div>
+			<img src="img/gotop.png"alt="" id="zhu5"/>
+		</div>
+		<div id="banner">
+		</div>
+		<p id="shouye">首页</p>
+		<p id="dayuhao">&gt;&nbsp;&nbsp;玉石</p>
+		<p id="shangpin">共200件相关商品</p>
+		<ul id="liebiaoone">
+			<li class="tou"><p class="tou1">玉石</p></li>
+			<li class="tou2">白玉</li>
+			<li class="shengyu">碧玉</li>
+			<li class="shengyu">黄玉</li>
+			<li class="shengyu">和田玉</li>
+			<li class="shengyu">翡翠</li>
+			<li class="shengyu">绿松玉</li>
+			<li class="shengyu">墨玉</li>
+		</ul>
+		<ul id="liebiaotwo">
+			<li class="tou"><p class="tou1">其他</p></li>
+			<li class="tou2">吊坠</li>
+			<li class="shengyu">扳指</li>
+			<li class="shengyu">手镯</li>
+		</ul>
+		<ul id="liebiaothree">
+			<li class="tou"><p class="tou1">地区</p></li>
+			<li class="tou2">北京</li>
+			<li class="shengyu">安徽</li>
+			<li class="shengyu">福建</li>
+			<li class="shengyu">内蒙古</li>
+			<li class="shengyu">宁夏</li>
+			<li class="shengyu">黑龙江</li>
+			<li class="shengyu">河北</li>
+			<li class="shengyu">更多</li>
+		</ul>
+		<div id="tuyi">
+			<div id="tuyip">
+				<p class="diyihang">竞猜价:&nbsp;¥&nbsp;&nbsp;399.00</p>
+				<p id="dierhang">翡翠千手观音吊坠</p>
+			</div>
+		</div>
+		<div id="tuer">
+			<div id="tuerp">
+				<p class="diyihang">竞猜价:&nbsp;¥&nbsp;&nbsp;1980.00</p>
+				<p id="dierhang2">翡翠龙飞吊坠</p>
+			</div>
+		</div>
+		<div id="tusan">
+			<div id="tusanp">
+				<p class="diyihang">竞猜价:&nbsp;¥&nbsp;&nbsp;199.00</p>
+				<p id="dierhang3">翡翠花蕊吊坠</p>
+			</div>
+		</div>
+		<div id="tusi">
+			<div id="tusip">
+				<p class="diyihang">竞猜价:&nbsp;¥&nbsp;&nbsp;199.00</p>
+				<p id="dierhang4">翡翠如意吊坠</p>
+			</div>
+		</div> 
+		<div id="tuwu">
+			<div id="tuwup">
+				<p class="diyihang">竞猜价:&nbsp;¥&nbsp;&nbsp;99.00</p>
+				<p id="dierhang5">翡翠婵吊坠</p>
+			</div>
+		</div>
+		<div id="tuliu">
+			<div id="tuliup">
+				<p class="diyihang">竞猜价:&nbsp;¥&nbsp;&nbsp;99.00</p>
+				<p id="dierhang6">翡翠观音（浅色）吊坠</p>
+			</div>
+		</div>
+		<div id="tuqi">
+			<div id="tuqip">
+				<p class="diyihang">竞猜价:&nbsp;¥&nbsp;&nbsp;199.00</p>
+				<p id="dierhang7">翡翠平安扣（深色）吊坠</p>
+			</div>
+		</div>
+		<div id="tuba">
+			<div id="tubap">
+				<p class="diyihang">竞猜价:&nbsp;¥&nbsp;&nbsp;199.00</p>
+				<p id="dierhang8">翡翠如意吊坠</p>
+			</div>
+		</div>
+		<div id="tibu1">
+			<div>
+				<p class="tibudiyihang">竞猜价:&nbsp;¥&nbsp;&nbsp;399.00</p>
+				<p id="xuehaijie1">翡翠千手观音吊坠</p>
+			</div>
+		</div>
+		<div id="tibu2">
+			<div>
+				<p class="tibudiyihang">竞猜价:&nbsp;¥&nbsp;&nbsp;1980.00</p>
+				<p id="xuehaijie2">翡翠龙飞吊坠</p>
+			</div>
+		</div>
+		<div id="tibu3">
+			<div>
+				<p class="tibudiyihang">竞猜价:&nbsp;¥&nbsp;&nbsp;199.00</p>
+				<p id="xuehaijie3">翡翠花蕊吊坠</p>
+			</div>
+		</div>
+		<div id="tibu4">
+			<div>
+				<p class="tibudiyihang">竞猜价:&nbsp;¥&nbsp;&nbsp;199.00</p>
+				<p id="xuehaijie4">翡翠如意吊坠</p>
+			</div>
+		</div>
+		<div id="tibu5">
+			<div>
+				<p class="tibudiyihang">竞猜价:&nbsp;¥&nbsp;&nbsp;99.00</p>
+				<p id="xuehaijie5">翡翠婵吊坠</p>
+			</div>
+		</div>
+		<div id="tibu6">
+			<div>
+				<p class="tibudiyihang">竞猜价:&nbsp;¥&nbsp;&nbsp;99.00</p>
+				<p id="xuehaijie6">翡翠观音（浅色）吊坠</p>
+			</div>
+		</div>
+		<div id="tibu7">
+			<div>
+				<p class="tibudiyihang">竞猜价:&nbsp;¥&nbsp;&nbsp;199.00</p>
+				<p id="xuehaijie7">翡翠平安扣（深色）吊坠</p>
+			</div>
+		</div>
+		<div id="tibu8">
+			<div>
+				<p class="tibudiyihang">竞猜价:&nbsp;¥&nbsp;&nbsp;199.00</p>
+				<p id="xuehaijie8">翡翠如意吊坠</p>
+			</div>
+		</div>
+		<div id="bottom">
+			<img src="img/f1.png" alt=""id="b1"/>
+			<img src="img/f2.png"alt=""id="b2" />
+			<img src="img/f3.png"alt="" id="b3"/>
+			<img src="img/f4.png"alt="" id="b4"/>
+			<p id="shikailun">资质认证</p>
+			<p id="shikailun1">支付安全</p>
+			<p id="shikailun2">保险赔付</p>
+			<P id="shikailun3">售后无忧</P>
+			<p id="shikailun4">服务商%100实名认证</p>
+			<<p id="shikailun5">明码标价支付及信息安全</p>
+			<p id="shikailun6">为您提供担保赔付</p>
+			<p id="shikailun7">服务出问题经理全程跟进</p>
+			<div id="heyi"></div>
+			<div id="heer"></div>
+			<div id="hesan"></div>
+		</div>
+		<div id="bottom2">
+			<p id="bottom2one">首页&nbsp;&nbsp;|&nbsp;&nbsp;工商代理&nbsp;&nbsp;|&nbsp;&nbsp;财务代记账&nbsp;&nbsp;|&nbsp;&nbsp;股权交易与变更&nbsp;&nbsp;|&nbsp;&nbsp;企业贷款&nbsp;&nbsp;|&nbsp;&nbsp;办公室租赁&nbsp;&nbsp;|&nbsp;&nbsp;社保公积金代理&nbsp;&nbsp;|&nbsp;&nbsp;法律服务</p>
+			<p id="bottom2two">©&nbsp;2017-2018&nbsp;买猜商城有限公司&nbsp;版权所有</p>
+		</div>
+	</body>
+</html>
